@@ -1,0 +1,11 @@
+(gdb) show commands
+   40  s
+   41  r -t testcases/short2.rep
+   42  n
+   43  q
+   44  b grind.c:86
+   45  r -t testcases/short2.rep
+   46  n
+   47  p itr
+   48  q
+   49  show commands

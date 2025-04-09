@@ -1,0 +1,500 @@
+   55  clear
+   56  driver.py
+   57  clear
+   58  git add .
+   59  git commit -m "Refactored find"
+   60  git push origin main
+   61  clear
+   62  driver.py
+   63  clear
+   64  git add .
+   65  git commit -m "Added free list for coalesce"
+   66  git push origin main
+   67  clear
+   68  make week1
+   69  ./bin/test-hw -v 2
+   70  clear
+   71  make week1
+   72  ./bin/test-hw -v 2
+   73  clear
+   74  clear
+   75  make week1
+   76  clear
+   77  make week1
+   78  ./bin/test-hw -v 2
+   79  clear
+   80  make week1
+   81  ./bin/test-hw -v 2
+   82  clear
+   83  ./bin/test-hw -v 2
+   84  gdb ./bin/test-hw
+   85  make clean
+   86  make week1
+   87  ./bin/test-hw -v 2
+   88  make week1
+   89  clear
+   90  ./bin/test-hw -v 2
+   91  clear
+   92  make week1
+   93  ./bin/test-hw -v 2
+   94  clear
+   95  make week1
+   96  ./bin/test-hw -v 2
+   97  make week1
+   98  ./bin/test-hw -v 2
+   99  clear
+  100  make week1
+  101  ./bin/test-hw -v 2
+  102  clear
+  103  make week1
+  104  ./bin/test-hw -v 2
+  105  clear
+  106  make week1
+  107  clear
+  108  ./bin/test-hw -v 2
+  109  clear
+  110  make week1
+  111  ./bin/test-hw -v 2
+  112  clear
+  113  ./bin/test-hw -v 2
+  114  make week1
+  115  ./bin/test-hw -v 2
+  116  clear
+  117  make week1
+  118  ./bin/test-hw -v 2
+  119  clear
+  120  make week1
+  121  ./bin/test-hw -v 2
+  122  clear
+  123  make week1
+  124  ./bin/test-hw -v 2
+  125  clea
+  126  clear
+  127  make
+  128  clclear
+  129  clear
+  130  make clean
+  131  make
+  132  clear
+  133  make
+  134  make clean
+  135  make week1
+  136  clear
+  137  ./bin/test-hw -v 2
+  138  git add .
+  139  git commit -m "Finished files. Some wack error"
+  140  clear
+  141  git push origin main
+  142  clear
+  143  clear
+  144  make clean
+  145  make week1
+  146  clear
+  147  ./bin/test-hw -v 2
+  148  clear
+  149  make clean
+  150  make week1
+  151  clear
+  152  ./bin/test-hw -v 2
+  153  clear
+  154  make week1
+  155  ./bin/test-hw -v 2
+  156  clear
+  157  git add .
+  158  git commit -m "Finished code"
+  159  git push origin main
+  160  clear
+  161  make debug
+  162  gdb mini_ci 
+  163  make clean
+  164  make debug
+  165  clear
+  166  gdb mini_ci
+  167  clear
+  168  make check
+  169  clear
+  170  make clean
+  171  make debug
+  172  clear
+  173  gdb mini_ci
+  174  clear
+  175  make clean
+  176  make check
+  177  clear
+  178  make clean
+  179  make debug
+  180  clear
+  181  gdb testcases/err_ops2.s
+  182  clear
+  183  gdb mini_ci
+  184  make check
+  185  clear
+  186  make clean
+  187  make debug
+  188  clear
+  189  gdb mini_ci
+  190  clear
+  191  make clean
+  192  make check
+  193  clear
+  194  history > shell_logs.txt
+  195  gdb mini_ci
+  196  make clean
+  197  make debug
+  198  gdb mini_ci
+  199  touch gdb_logs.txt
+  200  gdb mini_ci
+  201  git add .
+  202  git commit -m "Fucl"
+  203  clear
+  204  git push origin main
+  205  cler
+  206  clear
+  207  git push origin main -f
+  208  clear
+  209  git push origin master
+  210  clear
+  211  cd ../
+  212  clear
+  213  ls
+  214  rm -rf mastery-version-a/
+  215  clear
+  216  ls
+  217  clear
+  218  touch ~/.gdbinit
+  219  clear
+  220  nano .gdbini
+  221  clear
+  222  clear
+  223  touch .gdbinit
+  224  clear
+  225  make
+  226  clear
+  227  make check
+  228  clear
+  229  make debug
+  230  clear
+  231  gdb mini_ci
+  232  clear
+  233  touch ~/.gdbinit
+  234  clear
+  235  make check
+  236  clear
+  237  make comp
+  238  clear
+  239  make clean
+  240  clear
+  241  make debug
+  242  clear
+  243  gdb ref.out
+  244  clear
+  245  ref.out
+  246  clear
+  247  gdb ref.out
+  248  clear
+  249  gdb ref.out
+  250  clear
+  251  make clean
+  252  make debug
+  253  clear
+  254  gdb bin/ref.out
+  255  cleart
+  256  gdb ref.out
+  257  clear
+  258  clear
+  259  make clean
+  260  make debug
+  261  clear
+  262  gdb bin/a.out
+  263  clear
+  264  make check
+  265  make comp
+  266  clear
+  267  make clean
+  268  make debug
+  269  clear
+  270  gdb bin/a.out
+  271  clear
+  272  gdb bin/a.out
+  273  clear
+  274  make clean
+  275  make comp
+  276  make clean
+  277  make check
+  278  clear
+  279  make clean
+  280  make debug
+  281  gdb bin/a.out
+  282  clear
+  283  make debug
+  284  gdb bin/a.out
+  285  clear
+  286  gdb bin/a.out
+  287  c.ear
+  288  clear
+  289  ./ref_out testcases/short1.rep
+  290  clear
+  291  ref.out testcases/short1.rep
+  292  clear
+  293  ref.out -t testcases/short1.rep
+  294  bin/a.out -t testcases/short1.rep
+  295  ref.out -t testcases/short2.rep
+  296  bin/a.out -t testcases/short2.rep
+  297  clear
+  298  make clean
+  299  make check
+  300  make comp
+  301  clear
+  302  bin/a.out -t testcases/short2.rep
+  303  ref.out -t testcases/short2.rep
+  304  clear
+  305  make clena
+  306  clear
+  307  make clean
+  308  make debug
+  309  clear
+  310  bin/a.out -t testcases/short2.rep
+  311  clear
+  312  gdb bin/a.out
+  313  clear
+  314  clear
+  315  make clean
+  316  make chekc
+  317  clear
+  318  make check
+  319  clear
+  320  gdb bin/a.out
+  321  clear
+  322  make clean
+  323  make debug
+  324  clear
+  325  gdb bin/a.out
+  326  clear
+  327  gdb bin/a.out
+  328  clear
+  329  make clean
+  330  make check
+  331  gdb bin/a.out
+  332  clear
+  333  make clean
+  334  make debug
+  335  gdb bin/a.out
+  336  clear
+  337  gdb bin/a.out
+  338  clear
+  339  make clean
+  340  make check
+  341  clear
+  342  make clean
+  343  make debug
+  344  gdb bin/a.out
+  345  clear
+  346  bin/a.out -t testcases/short2.rep
+  347  clear
+  348  make clean
+  349  make check
+  350  clear
+  351  make comp
+  352  clear
+  353  make clean
+  354  make comp
+  355  clear
+  356  make clean
+  357  make comp
+  358  ls
+  359  cd ../
+  360  clear
+  361  ls
+  362  rm -rf mastery-version-f
+  363  clear
+  364  ls
+  365  cd m
+  366  cd mastery-version-b/
+  367  clear
+  368  ls
+  369  clear
+  370  make clea
+  371  make clean
+  372  clear
+  373  make tests
+  374  clear
+  375  make check
+  376  clear
+  377  mini_ci_reference -t testcases/basic_add.s
+  378  mini_ci_reference testcases/basic_add.s
+  379  clear
+  380  mini_ci testcases/basic_add.s
+  381  clear
+  382  clear
+  383  touch ~/.gdbinit
+  384  ls
+  385  cd ../
+  386  ls
+  387  clear
+  388  clear
+  389  echo "set history save on" > ~/.gdbinit
+  390  clear
+  391  ls
+  392  clear
+  393  ls
+  394  clear
+  395  cd mastery-version-b/
+  396  ls
+  397  clear
+  398  make clean
+  399  make debug
+  400  clear
+  401  gdb mini_ci
+  402  clear
+  403  gdb mini_ci
+  404  clear
+  405  make clean
+  406  make check
+  407  clear
+  408  make check
+  409  clea
+  410  make clean
+  411  make check
+  412  clear
+  413  make check
+  414  clear
+  415  make clean
+  416  make debug
+  417  clear
+  418  gdb mini_ci
+  419  clear
+  420  clear
+  421  make clean
+  422  make check
+  423  history > shell_logs.txt
+  424  clear
+  425  clear
+  426  gdb mini_ci
+  427  clear
+  428  make clea
+  429  clear
+  430  make clean
+  431  make debug
+  432  clear
+  433  gdb mini_ci
+  434  clear
+  435  make check'
+  436  clear
+  437  make clean
+  438  make check
+  439  make tests
+  440  clear
+  441  gdb mini_ci
+  442  clear
+  443  git add .
+  444  clear
+  445  git commit -m "Added logs"
+  446  clear
+  447  git push origin main
+  448  clear
+  449   git push origin master
+  450  clear
+  451  cd ../
+  452  c;ear
+  453  clear
+  454  rm -rf mastery-version-b
+  455  clear
+  456  ls
+  457  clear
+  458  touch ~/.gdbinit
+  459  clear
+  460  ls
+  461  clear
+  462  echo "set history save on" > ~/.gdbinit
+  463  cleazr
+  464  clear
+  465  ls
+  466  clear
+  467  make clea
+  468  clear
+  469  make clean
+  470  clear
+  471  make check
+  472  ls
+  473  clear
+  474  make debug
+  475  clear
+  476  gdb bin/a.out
+  477  clear
+  478  make debug
+  479  clear
+  480  make clean
+  481  make debug
+  482  clear
+  483  gdb bin/a.out
+  484  clear
+  485  make clean
+  486  make check
+  487  clear
+  488  make clean
+  489  make debug
+  490  gdb bin/a.out
+  491  clear
+  492  make clea
+  493  clear
+  494  make check
+  495  clear
+  496  make clean
+  497  make debug
+  498  gdb bin/a.out
+  499  clear
+  500  cd ../
+  501  clear
+  502  rm -rf
+  503  ls
+  504  rm -rf mastery-version-g/
+  505  ls
+  506  clear
+  507  touch ~/.gdbinit
+  508  clear
+  509  echo "set history save on" > ~/.gdbinit
+  510  clear
+  511  make check
+  512  clear
+  513  make check
+  514  clear
+  515  cd mastery-version-g/
+  516  ls
+  517  clear
+  518  make check
+  519  clear
+  520  make clean
+  521  make debug
+  522  clear
+  523  gdb bin/a.out
+  524  clear
+  525  gdb bin/a.out
+  526  clear
+  527  gdb bin/a.out
+  528  c;ear
+  529  clear
+  530  make check
+  531  clear
+  532  make check
+  533  make clean
+  534  make check
+  535  ref.out
+  536  ref.out -t testcases/short2.rep
+  537  clear
+  538  make debug
+  539  make clean
+  540  make debug
+  541  clear
+  542  gdb bin/a.out
+  543  clear
+  544  make debug
+  545  gdb bin/a.out
+  546  clear
+  547  make clean
+  548  make check
+  549  ref.out -t testcases/short2.rep
+  550  clear
+  551  make comp
+  552  clear
+  553  history 
+  554  history > shell_logs.txt
